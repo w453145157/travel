@@ -91,7 +91,7 @@ export default {
   .icon-wrapper >>> .swiper-container
     overflow: unset
   .icon-wrapper >>> .swiper-pagination
-    bottom: -16px
+    bottom: -0.5rem
   .icon-wrapper
     padding-top: 0.05rem
     height: 0;
