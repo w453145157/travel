@@ -7,6 +7,7 @@ import 'styles/reset.css'
 import 'styles/border.css'
 import 'styles/iconfont.css'
 import 'swiper/dist/css/swiper.css'
+import 'styles/common.css'
 import fastClick from 'fastclick'
 
 fastClick.attach(document.body)
