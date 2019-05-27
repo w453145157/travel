@@ -20,29 +20,12 @@
 <script>
 export default {
   name: "HomeRecommend",
-  data () {
-    return {
-      recommendList: [{
-        id: '001',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1902/84/84696f368bbec10da3.img.jpg_200x200_50323152.jpg',
-        title: '故宫',
-        desc: '世界五大宫之首，穿越与您近在咫尺'
-      }, {
-        id: '002',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1903/5d/5dcaf453dfd6f5dba3.img.jpg_200x200_51d03f19.jpg',
-        title: '古北水镇',
-        desc: '亚洲唯一飞行式过山车等你来挑战'
-      }, {
-        id: '003',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/201405/23/0265195fc4b7913a758674357c3cc8f6.jpg_200x200_b58ea00b.jpg',
-        title: '北京欢乐水魔方',
-        desc: '传统建筑结合中国人自己的水上乐园'
-      }, {
-        id: '004',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1602/68/68aa05adb5315f9990.water.jpg_200x200_ce3d2658.jpg',
-        title: '北京海洋馆',
-        desc: '一座恭王府，半部清代史'
-      }]
+  props: {
+    recommendList: {
+      type: Array,
+      default () {
+        return []
+      }
     }
   }
 }
