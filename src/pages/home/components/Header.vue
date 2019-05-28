@@ -6,7 +6,7 @@
       <span>输入城市/景点/游玩/主题</span>
     </div>
     <router-link tag="div" to="/city" class="header-right">
-      <span class="city">{{this.doubleCity}}</span>
+      <span class="city">{{this.city}}</span>
       <span class="iconfont">&#xe64a;</span>
     </router-link>
   </div>
