@@ -68,6 +68,7 @@ export default {
     color: #fff
     text-align: center
     top: 0
+    z-index: 2
     .back-home
       position: absolute 
       width: .6rem 
