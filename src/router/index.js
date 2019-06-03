@@ -19,7 +19,7 @@ export default new Router({
         name: 'Detail',
         component: Detail
     }],
-    scrollBehavior(to, from, savedPosition) {
+    scrollBehavior() {
         return {
             x: 0,
             y: 0

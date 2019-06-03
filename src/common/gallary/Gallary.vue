@@ -58,7 +58,7 @@ export default {
     .wrapper
       width: 100%
       height: 0
-      padding-bottom: 66.66%
+      padding-bottom: 99.66%
       background: #fff
       .gallary-img
         width: 100%
